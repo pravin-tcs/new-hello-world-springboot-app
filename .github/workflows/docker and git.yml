@@ -23,7 +23,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: pravin-tcs/new-hello-world-springboot-app
+        image: pravinkumar23/sample-springboot-java
         tag: v6
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
